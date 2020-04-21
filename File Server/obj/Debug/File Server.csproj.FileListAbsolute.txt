@@ -1,0 +1,10 @@
+D:\Programming-Projects\Files Sync\File Server\obj\Debug\File Server.csprojAssemblyReference.cache
+D:\Programming-Projects\Files Sync\File Server\obj\Debug\File_Server.Form1.resources
+D:\Programming-Projects\Files Sync\File Server\obj\Debug\File_Server.Properties.Resources.resources
+D:\Programming-Projects\Files Sync\File Server\obj\Debug\File Server.csproj.GenerateResource.cache
+D:\Programming-Projects\Files Sync\File Server\obj\Debug\File Server.csproj.CoreCompileInputs.cache
+D:\Programming-Projects\Files Sync\File Server\bin\Debug\File Server.exe.config
+D:\Programming-Projects\Files Sync\File Server\bin\Debug\File Server.exe
+D:\Programming-Projects\Files Sync\File Server\bin\Debug\File Server.pdb
+D:\Programming-Projects\Files Sync\File Server\obj\Debug\File Server.exe
+D:\Programming-Projects\Files Sync\File Server\obj\Debug\File Server.pdb

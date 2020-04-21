@@ -1,0 +1,14 @@
+D:\Programming-Projects\Files Sync\File Client\File Client\bin\Debug\netstandard2.0\File Client.deps.json
+D:\Programming-Projects\Files Sync\File Client\File Client\bin\Debug\netstandard2.0\File Client.dll
+D:\Programming-Projects\Files Sync\File Client\File Client\bin\Debug\netstandard2.0\ref\File Client.dll
+D:\Programming-Projects\Files Sync\File Client\File Client\bin\Debug\netstandard2.0\File Client.pdb
+D:\Programming-Projects\Files Sync\File Client\File Client\obj\Debug\netstandard2.0\File Client.csprojAssemblyReference.cache
+D:\Programming-Projects\Files Sync\File Client\File Client\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Programming-Projects\Files Sync\File Client\File Client\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Programming-Projects\Files Sync\File Client\File Client\obj\Debug\netstandard2.0\File Client.csproj.CoreCompileInputs.cache
+D:\Programming-Projects\Files Sync\File Client\File Client\obj\Debug\netstandard2.0\File Client.AssemblyInfoInputs.cache
+D:\Programming-Projects\Files Sync\File Client\File Client\obj\Debug\netstandard2.0\File Client.AssemblyInfo.cs
+D:\Programming-Projects\Files Sync\File Client\File Client\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Programming-Projects\Files Sync\File Client\File Client\obj\Debug\netstandard2.0\File Client.dll
+D:\Programming-Projects\Files Sync\File Client\File Client\obj\Debug\netstandard2.0\ref\File Client.dll
+D:\Programming-Projects\Files Sync\File Client\File Client\obj\Debug\netstandard2.0\File Client.pdb
