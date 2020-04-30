@@ -20,18 +20,17 @@ namespace File_Server {
             Socket server = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             server.Bind(new IPEndPoint(IPAddress.Parse(ip), port));
             server.Close();
-
         }
         public void sendFile(string filePath, string root) {
             FileInfo file = new FileInfo(filePath);
             Socket server = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             server.Bind(new IPEndPoint(IPAddress.Parse(ip), port));
+            Socket client;
+            byte[] send;
 
             //send song name length
-
             server.Listen(0);
-            Socket client = server.Accept();
-            byte[] send;
+            client = server.Accept();
             if (filePath.Replace(root, "").Length < 10)
                 send = new UTF8Encoding(true).GetBytes("0" + filePath.Replace(root, "").Length);
             else
@@ -41,7 +40,6 @@ namespace File_Server {
             server.Close();
 
             //send song name
-
             server = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             server.Bind(new IPEndPoint(IPAddress.Parse(ip), port));
             server.Listen(0);
@@ -52,17 +50,15 @@ namespace File_Server {
             server.Close();
 
             //send the song
-
             server = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             server.Bind(new IPEndPoint(IPAddress.Parse(ip), port));
             server.Listen(0);
             client = server.Accept();
             client.SendFile(file.FullName);
             client.Close();
-
             server.Close();
         }
-        public void send(string data) {
+        public void send (string data) {
             switch (data.Length) {
                 case 1:
                     data = "000" + data;

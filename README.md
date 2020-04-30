@@ -1,6 +1,9 @@
 # Files-Sync
 
-## If you wish to use this on your device (which i really don't recommend), please follow the instructions first.
+## What's new?
+-Server is now async - instruction #1 doesn't stand true anymore.
+
+## If you wish to use this on your device (which I really don't recommend), please follow the instructions first.
 
 #### 1)
  The form doesn't use async events. That means, when you click on the "push" button and start sending files, except if using a debugger, the app will crash if you try to do anything before it sums up the sending. Maybe I'll update it in the future.
@@ -18,4 +21,4 @@ At this moment (latest release-22.04.2020), the app is android only. I can make 
 
 Greetings, iQuerz.
 
-### Version 1.0.1
+### Version 1.1.0
